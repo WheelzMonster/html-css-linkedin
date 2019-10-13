@@ -1,4 +1,3 @@
-html,
 body {
 	margin: 0;
 	padding: 0;
@@ -10,22 +9,82 @@ body {
 	flex-wrap: wrap;
 }
 
-#main-content {
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	overflow: hidden;
+	background-color: #c1c1c1;
+	z-index: 5;
+}
+
+#main_content {
 	width: 70%;
+	margin-top: 50px;
+}
+
+#bann_container {
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+
+header .bann {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	transform-origin: 50% 50%;
+	top: -25%;
 }
 
 header,
 main {
 	width: calc(100% - 100px);
-	margin: 0, 0, 0 100px;
+	margin: 0 0 0 100px;
 }
 
-header .bann {
+.infos-container {
+	background-color: white;
 	width: 100%;
+}
+
+.infos {
+	display: flex;
+	background-color: white;
+	width: 100%;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+}
+
+.personalinfos {
+	font-size: 10px;
+	font-style: bold;
+}
+
+#blue {
+	background-color: #006097;
+	color: white;
+	border: 1px solid #006097;
+	padding: 4px;
+	margin: 5px;
+	margin-top: 10px;
+}
+
+#white {
+	background-color: #fff;
+	color: gray;
+	border: 1px solid grey;
+	padding: 4px;
+	margin: 5px;
+	margin-top: 10px;
 }
 
 aside {
 	width: 30%;
+	margin-top: 50px;
 }
 
 aside div {
@@ -37,12 +96,24 @@ footer {
 	width: 100%;
 }
 
-.footer-blocks:nth-child(4) li img {
-	content: '';
+#footer_logo {
+	width: 60px;
+	height: 14px;
+}
+
+.footer_blocks:nth-child(4) li img {
 	width: 15px;
 }
 
-.footer-blocks:nth-child(4) li img {
-	content: '';
-	width: 15px;
+.footer_blocks {
+	width: calc(25% - 20px);
+	padding: 10px;
+}
+
+#footer_row {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	width: 100%;
 }
