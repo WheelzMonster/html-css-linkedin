@@ -92,6 +92,23 @@ aside div {
 	margin-right: 100px;
 }
 
+.video-container{
+	display: flex;
+	flex-direction: column;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+.video-container video{
+	padding-top: 25px;
+}
+
+.essentiel{
+	margin-top: 2%;
+	background-color: #ffffff;
+	box-shadow: #006097;
+}
+
 footer {
 	width: 100%;
 }
