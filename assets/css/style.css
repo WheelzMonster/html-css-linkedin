@@ -7,6 +7,7 @@ body {
 	justify-content: flex-start;
 	align-items: flex-start;
 	flex-wrap: wrap;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 nav {
@@ -62,6 +63,7 @@ main {
 .personalinfos {
 	font-size: 10px;
 	font-style: bold;
+	border-radius: 25px;
 }
 
 #blue {
@@ -106,7 +108,36 @@ aside div {
 .essentiel{
 	margin-top: 2%;
 	background-color: #ffffff;
-	box-shadow: #006097;
+	border-radius: 5px;
+}
+
+.img-container{
+	margin-left: 12px;
+}
+
+img .message-icon{
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.essentiel h2{
+	font-weight: normal;
+	padding: 15px 0 0 15px;
+}
+
+#services {
+	font-size: 15px;
+	color: #c1c1c1;
+	margin-left: 60px;
+}
+
+#send-message{
+	color: #006097;
+	background-color: #ffffff;
+	border: 1px solid #006097;
+	margin: 10px 0 20px 60px;
+	font-size: 17px;
+	padding: 8px 5px 6px 5px;
 }
 
 footer {
