@@ -555,6 +555,10 @@ footer {
 	padding: 10px;
 }
 
+.footer_blocks b img {
+	padding-right: 7px;
+}
+
 .footer_blocks ul li {
 	list-style: none;
 	font-size: 15px;
